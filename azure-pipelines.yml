@@ -22,7 +22,7 @@ stages:
         # Target Directory: $(Build.ArtifactStagingDirectory)
           - task: CopyFiles@1
             inputs:
-              SourceFolder: '$(System.DefaultWorkingDirectory)/terraform-manifests'
+              SourceFolder: '$(System.DefaultWorkingDirectory)/terraform-files'
               Contents: '**'
               TargetFolder: '$(Build.ArtifactStagingDirectory)'
               OverWrite: true
