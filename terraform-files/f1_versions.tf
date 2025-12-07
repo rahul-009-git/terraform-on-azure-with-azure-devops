@@ -22,3 +22,4 @@ provider "azurerm" {
 }
 
 //Adding simple comment for testing
+//Added role to SC
