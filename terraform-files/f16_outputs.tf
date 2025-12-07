@@ -1,14 +1,14 @@
 //public IP
 output "weblinux_vm_public_ip" {
   description = "web linux public IP"
-  value       = azurerm_public_ip.linux_vm_public_ip.id
+  value       = azurerm_public_ip.linux_vm_public_ip_new.id
 }
 
 //newtork interface outputs
 //Network interface ID
 output "weblinux_vm_network_interface_id" {
   description = "web linux VM NIC id"
-  value       = azurerm_network_interface.vm_network_interface.id
+  value       = azurerm_network_interface.vm_network_interface_new.id
 }
 
 //NIC private IP addresses
