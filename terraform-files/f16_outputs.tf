@@ -1,7 +1,7 @@
 //public IP
 output "weblinux_vm_public_ip" {
   description = "web linux public IP"
-  value       = azurerm_public_ip.vm_public_ip.ip_address
+  value       = azurerm_public_ip.linux_vm_public_ip.id
 }
 
 //newtork interface outputs
