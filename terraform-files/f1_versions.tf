@@ -23,3 +23,4 @@ provider "azurerm" {
 
 //Adding simple comment for testing
 //Added role to SC
+//Changed the dev variable file name
