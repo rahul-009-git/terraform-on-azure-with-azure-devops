@@ -14,7 +14,7 @@ output "weblinux_vm_network_interface_id" {
 //NIC private IP addresses
 output "weblinux_vm_NIC_private_IPs" {
   description = "web linux VM private IPs"
-  value       = [ azurerm_network_interface.vm_network_interface_new.id ]
+  value       = [ azurerm_network_interface.vm_network_interface_new.private_ip_address ]
 }
 
 //linux VM outputs
