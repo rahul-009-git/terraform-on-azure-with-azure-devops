@@ -4,5 +4,5 @@ resource "azurerm_public_ip" "vm_public_ip" {
   location            = azurerm_resource_group.rg.location
   allocation_method   = "Static"
   sku                 = "Standard"
-  domain_name_label   = "app1-vm-label"
+ // domain_name_label   = "app1-vm-label"
 }
